@@ -1,0 +1,15 @@
+D:\szi sarp\Hangman\Hangman\bin\Debug\Hangman.exe.config
+D:\szi sarp\Hangman\Hangman\bin\Debug\Hangman.exe
+D:\szi sarp\Hangman\Hangman\bin\Debug\Hangman.pdb
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman.csproj.AssemblyReference.cache
+D:\szi sarp\Hangman\Hangman\obj\Debug\MainWindow.g.cs
+D:\szi sarp\Hangman\Hangman\obj\Debug\App.g.cs
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman_MarkupCompile.cache
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman_MarkupCompile.lref
+D:\szi sarp\Hangman\Hangman\obj\Debug\MainWindow.baml
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman.g.resources
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman.Properties.Resources.resources
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman.csproj.GenerateResource.cache
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman.csproj.CoreCompileInputs.cache
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman.exe
+D:\szi sarp\Hangman\Hangman\obj\Debug\Hangman.pdb

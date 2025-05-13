@@ -1,0 +1,19 @@
+﻿<Window x:Class="VB_tripla.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VB_tripla"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450"
+        Loaded="Window_Loaded">
+    <Grid Background="Beige">
+		<Canvas Name="Drawing" Width="200" Height="200" Background="Beige" KeyDown="KeyDownEvent" Focusable="True"/>
+		<TextBlock Name="WordDisplay" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0"/>
+		<TextBox Name="GuessInput" Width="100" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,50"/>
+		<Button Name="SubmitGuess" Content="Submit Guess" Width="100" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin ="0,0,0,10" Click="SubmitGuess_Click" />
+		<TextBlock Name="MessageDisplay" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30"/>
+        <TextBlock Name="LettersContent" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Margin ="2.5,0,0,0" Width="115" Height="200" TextAlignment="Center" TextWrapping="Wrap"/>
+
+    </Grid>
+</Window>
