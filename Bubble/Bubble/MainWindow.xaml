@@ -1,0 +1,20 @@
+﻿<Window x:Class="PabloGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PabloGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Name="GameCanvas" Height="403" Width="775">
+        <TextBlock Name="Score" FontSize="25" Canvas.Left="5" Foreground="White" FontFamily="Palatino Linotype" Canvas.Top="34">Score: 0</TextBlock>
+        <TextBlock Name="Timler" FontSize="25" Canvas.Left="5" Foreground="White" FontFamily="Palatino Linotype">Time: 20</TextBlock>
+        <TextBlock Name="Semmi" FontSize="25" Foreground="White" FontFamily="Palatino Linotype" HorizontalAlignment="Center" Canvas.Left="305">Reach 30 scores!</TextBlock>
+        <Canvas.Background>
+            <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                <GradientStop Color="#C04848" Offset="0.0" />
+                <GradientStop Color="#480048" Offset="1.0" />
+            </LinearGradientBrush>
+        </Canvas.Background>
+    </Canvas>
+</Window>
